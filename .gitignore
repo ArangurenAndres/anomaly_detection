@@ -1,0 +1,44 @@
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore logs
+*.log
+
+# Ignore data files (modify this according to your data folder name)
+data/
+*.csv
+*.xlsx
+*.h5
+*.db
+*.sqlite3
+
+# Ignore large files such as models and checkpoints
+models/*.h5
+models/*.ckpt
+checkpoints/
+
+# Ignore results folder
+results/
+
+# Ignore environment configuration files
+*.env
+*.json
+
+# Ignore large files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
