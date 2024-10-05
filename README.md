@@ -5,6 +5,7 @@
 This project focuses on building a machine learning framework for detecting anomalies in user activities on a marketplace platform (similar to Vinted). The goal is to identify abnormal user behaviors such as fraudulent transactions, unusual purchase activity, or any behavior that could indicate potential harm within the system.
 
 We leverage two advanced models for anomaly detection:
+- **Autoencoders**
 - **LSTM (Long Short-Term Memory)**: A powerful type of recurrent neural network (RNN) for sequential data.
 - **Transformers**: A modern architecture that excels at capturing long-range dependencies in sequential data.
 
