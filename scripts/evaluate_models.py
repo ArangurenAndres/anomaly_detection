@@ -26,7 +26,7 @@ def plot_anomaly_scores(anomaly_scores, model_name):
 
 if __name__ == "__main__":
     # Load preprocessed data
-    _, test_data = load_and_preprocess_data("../data/Online Retail.xlsx")
+    _, test_data = load_and_preprocess_data("/Users/andresaranguren/cs_project/ml_projects/anomaly_detection/data/online_retail.xlsx")
     test_loader = DataLoader(TensorDataset(torch.tensor(test_data.values, dtype=torch.float32)), batch_size=32, shuffle=False)
     
     # Load models

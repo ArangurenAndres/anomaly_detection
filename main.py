@@ -8,12 +8,12 @@ def run_data_preprocessing():
 
 def train_models():
     print("Step 2: Training the Models...")
-    subprocess.run(["python", "scripts/train_models.py"])
+    subprocess.run(["python", "scripts/train_autoencoder.py"])
     print("Model Training Complete.\n")
 
 def evaluate_models():
     print("Step 3: Evaluating the Models...")
-    subprocess.run(["python", "scripts/evaluate_models.py"])
+    subprocess.run(["python", "scripts/evaluate_autoencoder.py"])
     print("Model Evaluation Complete.\n")
 
 if __name__ == "__main__":
